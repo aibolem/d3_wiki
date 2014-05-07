@@ -36,7 +36,7 @@ Atau, me-link secara langsybg ke rilis terakhir, kopi potongan kode berikut:
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 ```
 
-Atau, bila Anda ingin repositori lengkapnya termasuk pengujian-pengujian:
+Atau, bila Anda ingin repositori lengkapnya termasuk pengetesan-pengetesan:
 
 * <https://github.com/mbostock/d3/zipball/master>
 
@@ -68,7 +68,7 @@ Bila Anda ingin memodifikasi bagaimana D3 diimplementasikan, klik tombol "Fork" 
 git clone git://github.com/username/d3.git
 ```
 
-Repositori D3 seharusnya dapat berjalan bila Anda hanya ingin membuat visualisasi baru menggunakan D3. Di sisi lain, bila Anda ingin memperluas D3 dengan fitur-fitur baru, memperbaiki bug, atau menjalankan pengujian-pengujian, Anda harus [mem-fork repositori D3](/mbostock/d3), dan instal [Node.js](http://nodejs.org/) (version 0.10.x atau lebih). Dari direktori _root_ dari repositori ini, Anda kemudian dapat menginstal dependensi D3:
+Repositori D3 seharusnya dapat berjalan bila Anda hanya ingin membuat visualisasi baru menggunakan D3. Di sisi lain, bila Anda ingin memperluas D3 dengan fitur-fitur baru, memperbaiki bug, atau menjalankan pengetesan-pengetesan, Anda harus [mem-fork repositori D3](/mbostock/d3), dan instal [Node.js](http://nodejs.org/) (version 0.10.x atau lebih). Dari direktori _root_ dari repositori ini, Anda kemudian dapat menginstal dependensi D3:
 
     npm install
 
