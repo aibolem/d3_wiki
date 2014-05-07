@@ -22,36 +22,35 @@
 
 D3 mendukung apa yang disebut sebagai perambah web “modern”, yang umumnya semua perambah _kecuali_ IE8 dan dibawahnya. D3 diujicoba terhadap Firefox, Chrome (Chromium), Safari (WebKit), Opera dan IE9. Beberapa bagian dari D3 mungkin dapat berjalan pada perambah yang lebih tua, karena pustaka inti (_core_) mempunyai _requirement_ minimal: JavaScript dan API [W3C DOM](http://www.w3.org/DOM/). Untuk IE8, direkomendasikan menggunakan pustaka kompatibilitas [Aight](https://github.com/shawnbot/aight). D3 memnggunakan [Selectors API](http://www.w3.org/TR/selectors-api/) Level 1, tapi Anda dapat mem-preload [Sizzle](http://sizzlejs.com/) untuk kompatibilitas. Anda akan membutuhkan perambah modern untuk menggunakan [SVG](http://www.w3.org/TR/SVG/) dan [CSS3 Transitions](http://www.w3.org/TR/css3-transitions/). D3 bukanlah suatu lapisan kompatibilitas, jadi bila perambah Anda tidak mendukung standard, Anda tidak beruntung. Mohon maaf :)
 
+D3 bekerja juga dengan Node.js. Lihat <https://groups.google.com/forum/#!msg/d3-js/JyldAkWkTvI/n8thanJeGvAJ> untuk detailnya.
 
-D3 works in Node.js as well. See <https://groups.google.com/forum/#!msg/d3-js/JyldAkWkTvI/n8thanJeGvAJ> for details.
+## Menginstal
 
-## Installing
-
-Download the latest version here:
+Unduh versi terakhir di sini:
 
 * <https://github.com/mbostock/d3/releases>
 
-Or, to link directly to the latest release, copy this snippet:
+Atau, me-link secara langsybg ke rilis terakhir, kopi potongan kode berikut:
 
 ```html
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 ```
 
-Or, if you want the full repository including tests:
+Atau, bila Anda ingin repositori lengkapnya termasuk pengujian-pengujian:
 
 * <https://github.com/mbostock/d3/zipball/master>
 
-When developing locally, note that your browser may enforce strict permissions for reading files out of the local file system. **If you use [d3.xhr](wiki/Requests) locally (including d3.json et al.), you must have a local web server.** For example, you can run Python's built-in server:
+Ketika membangun secara lokal, lihat bahwa perambah Anda mungkin memaksa permisi yang ketat untuk membaca file di luar _file system_ lokal. **Bila anda menggunakan [d3.xhr](wiki/Requests) secara lokal (termasuk d3.json dan lain-lain), Anda harus mempunyai server web lokal.** Sebagai contoh, Anda dapat menjalankan built-in server Python:
 
     python -m SimpleHTTPServer 8888 &
 
-or for Python 3+
+atau untuk Python 3+
 
     python -m http.server 8888 &
 
-Once this is running, go to <http://localhost:8888/>.
+Setelh berjalan, masuk ke <http://localhost:8888/>.
 
-D3 supports the asynchronous module definition (AMD) API. For example, if you use [RequireJS](http://requirejs.org/), you may load as follows:
+D3 mendukung API definisi modul asinkronos (asynchronous module definition - AMD). Sebagai contoh, bila Anda menggunakan [RequireJS](http://requirejs.org/), Anda mungkin me-load yang berikut ini:
 
 ```js
 require.config({paths: {d3: "http://d3js.org/d3.v3.min"}});
@@ -61,9 +60,9 @@ require(["d3"], function(d3) {
 });
 ```
 
-## Modifying
+## Memodifikasi
 
-If you want to modify how D3 is implemented, click the "Fork" button in the top-right corner of this page, and then clone your fork from the command line by replacing *username* with your GitHub username:
+Bila Anda ingin memodifikasi bagaimana D3 diimplementasikan, klik tombol "Fork" pada pojok kanan-atas dari halaman ini, dan kemudian _clone_ menjadi _fork_ Anda dengan perintah _command line_ dengan mengganti *username* dengan username Github Anda:
 
 ```bash
 git clone git://github.com/username/d3.git
