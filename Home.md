@@ -1,6 +1,6 @@
 > **Wiki**
 
-**D3.js** is a JavaScript library for manipulating documents based on data. **D3** helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
+**D3.js** D3.js adalah pustaka JavaScript untuk manipulasi dokumen berdasarkan data. D3 membantu anda menyajikan data menggunakan HTML, SVG dan CSS. Penekanan D3 pada standard web memberi Anda kompatibilitas penuh trerhadap perambah web (web browser) modern tanpa mengkaitkan anda dengan framework proprietary, menggabungkan komponen-komponen visualisasi yang powerful dan pendekatan yang didorong data pada manipulasi DOM.
 
 ## Resources
 
