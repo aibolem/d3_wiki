@@ -40,7 +40,7 @@ Atau, bila Anda ingin repositori lengkapnya termasuk pengujian-pengujian:
 
 * <https://github.com/mbostock/d3/zipball/master>
 
-Ketika membangun secara lokal, lihat bahwa perambah Anda mungkin memaksa permisi yang ketat untuk membaca file di luar _file system_ lokal. **Bila anda menggunakan [d3.xhr](wiki/Requests) secara lokal (termasuk d3.json dan lain-lain), Anda harus mempunyai server web lokal.** Sebagai contoh, Anda dapat menjalankan built-in server Python:
+Ketika membangun secara lokal, lihat bahwa perambah Anda mungkin memaksa permisi yang ketat untuk membaca file di luar _file system_ lokal. **Bila anda menggunakan [d3.xhr](/mbostock/d3/wiki/Requests) secara lokal (termasuk d3.json dan lain-lain), Anda harus mempunyai server web lokal.** Sebagai contoh, Anda dapat menjalankan built-in server Python:
 
     python -m SimpleHTTPServer 8888 &
 
@@ -68,11 +68,11 @@ Bila Anda ingin memodifikasi bagaimana D3 diimplementasikan, klik tombol "Fork" 
 git clone git://github.com/username/d3.git
 ```
 
-The D3 repository should work out of the box if you just want to create new visualizations using D3. On the other hand, if you want to extend D3 with new features, fix bugs, or run tests, you should [fork the D3 repository](/mbostock/d3), and install [Node.js](http://nodejs.org/) (version 0.10.x or higher). From the root directory of this repository, you can then install D3's dependencies:
+Repositori D3 seharusnya dapat berjalan bila Anda hanya ingin membuat visualisasi baru menggunakan D3. Di sisi lain, bila Anda ingin memperluas D3 dengan fitur-fitur baru, memperbaiki bug, atau menjalankan pengujian-pengujian, Anda harus [mem-fork repositori D3](/mbostock/d3), dan instal [Node.js](http://nodejs.org/) (version 0.10.x atau lebih). Dari direktori _root_ dari repositori ini, Anda kemudian dapat menginstal dependensi D3:
 
     npm install
 
-To run the tests, use:
+Untuk menjalankan tes, gunakan:
 
     make test
 
