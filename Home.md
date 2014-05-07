@@ -62,7 +62,7 @@ require(["d3"], function(d3) {
 
 ## Memodifikasi
 
-Bila Anda ingin memodifikasi bagaimana D3 diimplementasikan, klik tombol "Fork" pada pojok kanan-atas dari halaman ini, dan kemudian _clone_ menjadi _fork_ Anda dengan perintah _command line_ dengan mengganti *username* dengan username Github Anda:
+Bila Anda ingin memodifikasi bagaimana D3 diimplementasikan, klik tombol "Fork" pada pojok kanan-atas dari halaman ini, dan kemudian _clone_ menjadi _fork_ Anda dengan perintah _command line_ dengan mengganti *username* dengan *username* Github Anda:
 
 ```bash
 git clone git://github.com/username/d3.git
