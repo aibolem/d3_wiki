@@ -18,7 +18,7 @@ D3 bukanlah framework monolitik yang bertujuan menyediakan berbagai macam fitur.
 
 ## Seleksi
 
-Modifying documents using the [W3C DOM API](http://www.w3.org/DOM/DOMTR) is tedious: the method names are verbose, and the imperative approach requires manual iteration and bookkeeping of temporary state. For example, to change the text color of paragraph elements: 
+Memodifikasi dokumen menggunakan [W3C DOM API](http://www.w3.org/DOM/DOMTR) itu membosankan: nama method yang bertele-tele, dan pendekatan imperatif mengharuskan iterasi manual dan pengawasan langkah sementara. Sebagai contoh, untuk mengubah warna teks dari elemen paragraf:
 
 ```
 var paragraphs = document.getElementsByTagName("p");
@@ -28,19 +28,19 @@ for (var i = 0; i < paragraphs.length; i++) {
 }
 ```
 
-D3 employs a declarative approach, operating on arbitrary sets of nodes called selections. For example, you can rewrite the above loop as:
+D3 menggunakan pendekatan deklaratif, mengoperasikan sekumpulan node yang disebut seleksi (_selection_). Contoh, Anda dapat menulis ulang loop di atas sebagai:
 
 ```
 d3.selectAll("p").style("color", "white");
 ```
 
-Yet, you can still manipulate individual nodes as needed:
+Namun, Anda masih dapat memanipulasi masing-masing node sebagaimana dibutuhkan:
 
 ```
 d3.select("body").style("background-color", "black");
 ```
 
-Selectors are defined by the [W3C Selectors API](http://www.w3.org/TR/selectors-api/) and supported natively by modern browsers. Backwards-compatibility for older browsers can be provided by [Sizzle](http://sizzlejs.com/). The above examples select nodes by tag name ("p" and "body", respectively). Elements may be selected using a variety of predicates, including containment, attribute values, class and ID.
+Selektor didefinisikan oleh [W3C Selectors API](http://www.w3.org/TR/selectors-api/) dan didukung oleh perambah-perambah web modern. Kompatibilitas ke belakang oleh perambah-perambah tua dapat disediakan menggunakan [Sizzle](http://sizzlejs.com/). Contoh di atas memilih (_select_) node berdasarkan nama tag (masing-masing "p" dan "body"). Elemen-elemen dapat diseleksi menggunakan berbagai macam perdikat, termasuk _containment_, nilai atribut, class and ID.
 
 D3 provides numerous methods for mutating nodes: setting attributes or styles; registering event listeners; adding, removing or sorting nodes; and changing HTML or text content. These suffice for the vast majority of needs. Direct access to the underlying DOM is also possible, as each D3 selection is simply an array of nodes. 
 
