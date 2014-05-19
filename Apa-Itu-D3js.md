@@ -87,7 +87,7 @@ d3.select("body").selectAll("p")
     .text(function(d) { return "I’m number " + d + "!"; });
 ```
 
-Updating nodes are the default selection—the result of the data operator. Thus, if you forget about the enter and exit selections, you will automatically select only the elements for which there exists corresponding data. A common pattern is to break the initial selection into three parts: the updating nodes to modify, the entering nodes to add, and the exiting nodes to remove.
+Mengubah node adalah seleksi default-hasil dari operator data. Jadi, jika Anda lupa mengenai seleksi enter dan evit, Anda akan secara otomatis memilih hanya elemen di mana terdapat data yang terhubung. Pola yang umum adalah dengan memecah seleksi awal menjadi tiga bagian: node yang diupdate untuk memodifikasi, node yang masuk untuk ditambahkan, dan node yang keluar untuk dihapus.
 
 ```
 // Update…
