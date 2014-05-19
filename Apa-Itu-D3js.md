@@ -103,28 +103,28 @@ p.enter().append("p")
 p.exit().remove();
 ```
 
-By handling these three cases separately, you specify precisely which operations run on which nodes. This improves performance and offers greater control over transitions. For example, with a bar chart you might initialize entering bars using the old scale, and then transition entering bars to the new scale along with the updating and exiting bars.
+Dengan menangani ketiga kasus tersebut secara terpisah, Anda menentukan secara tepat operasi mana berjalan pada node yang mana. Hal ini memperbaiki performansi dan menawarkan kontrol yang lebih besar pada transisi. Sebagai contoh, dengan diagram batang Anda dapat menginisialisasi bar yang masuk dengan skala lama, dan kemudian transisi bar yang masuk ke skala yang baru bersamaan dengan mengupdate batang bersamaan dengan mengupdate dan mengeluarkan batang.
 
-D3 lets you transform documents based on data; this includes both creating and destroying elements. D3 allows you to change an existing document in response to user interaction, animation over time, or even asynchronous notification from a third-party. A hybrid approach is even possible, where the document is initially rendered on the server, and updated on the client via D3.
+D3 memungkinkan Anda mentransformasi dokumen berdasarkan data; hal ini termasuk baik membuat maupun menghancurkan elemen-elemen. D3 memungkinkan Anda untuk mengubah dokumen eksisting untuk merespon interkasi pengguna, animasi melalui waktu, atau bahkan notifikasi asinkronos dari pihak ketiga. Suatu pendekatan hibrid bahkan dimungkinkan, dimana dokumen awalnya dirender di server, dan diupdate pada klien melalui D3.
 
-## Transformation, not Representation
+## Transformasi, bukan Representasi
 
-D3 is not a new graphical representation. Unlike Processing, Raphaël, or Protovis, the vocabulary of marks comes directly from web standards: HTML, SVG and CSS. For example, you can create SVG elements using D3 and style them with external stylesheets. You can use composite filter effects, dashed strokes and clipping. If browser vendors introduce new features tomorrow, you’ll be able to use them immediately—no toolkit update required. And, if you decide in the future to use a toolkit other than D3, you can take your knowledge of standards with you!
+D3 bukanlah representasi grafis baru. Tidak seperti Processing, Raphaël, atau Protovis, perbendaharaan tanda langsung berasal dari web standard: HTML, SVG dan CSS. Sebagai contoh, Anda dapat membuat elemen SVG menggunakan D3 dan memberi style menggunakan stylesheet eksternal. Anda dapat menggunakan efek filter komposit, garis dash dan kliping. Bila pembuat perambah memperkenalkan fitur baru esok, Anda akan bisa menggunakannya langsung tanpa dibutuhkan update toolkit. Dan, bila Anda memutuskan di masa yang akan datang untuk menggunakan toolkit bukan D3, Anda dapat membawa pengetahuan akan standard bersama Anda!
 
-Best of all, D3 is easy to debug using the browser’s built-in element inspector: the nodes that you manipulate with D3 are exactly those that the browser understands natively.
+Yang terbaik dari semuanya, D3 mudah untuk di-debug menggunakan inspektor elemen bawaan perambah: node yang Anda manipulasi dengan D3 adalah persis apa yang perambah mengerti secara _native_.
 
-## Transitions
+## Transisi
 
-D3’s focus on transformation extends naturally to animated transitions. Transitions gradually interpolate styles and attributes over time. Tweening can be controlled via easing functions such as “elastic”, “cubic-in-out” and “linear”. D3’s interpolators support both primitives, such as numbers and numbers embedded within strings (font sizes, path data, etc.), and compound values. You can even extend D3’s interpolator registry to support complex properties and data structures.
+Fokus D3 pada transformasi diperluas secara alamiah pada animasi transisi. Transisi secara bertahap menginterpolasi atau menyisipkan style dan atribut seiring dengan berjalannya waktu. _Tweening_ dapat dikendalikan melalui pelonggaran fungsi seperti “elastic”, “cubic-in-out” dan “linear”. Interpolator D3 mendukung primitif, seperti bilangan dan bilangan yang dilekatkan dalam string (font sizes, path data, dll.), dan nilai-nilai gabungan. Anda bahkan dapat memperluas interpolator registry D3 untuk mendukung properti dan data struktur kompleks.
 
-For example, to fade the background of the page to black:
+Sebagai contoh, untuk memudarkan latar belakang halaman menjadi hitam:
 
 ```
 d3.select("body").transition()
     .style("background-color", "black");
 ```
 
-Or, to resize circles in a symbol map with a staggered delay:
+Atau, untuk mengubah ukuran lingkaran dalam suatu map simbol dengan delay:
 
 ```
 d3.selectAll("circle").transition()
@@ -133,6 +133,6 @@ d3.selectAll("circle").transition()
     .attr("r", function(d) { return Math.sqrt(d * scale); });
 ```
 
-By modifying only the attributes that actually change, D3 reduces overhead and allows greater graphical complexity at high frame rates. D3 also allows sequencing of complex transitions via events. And, you can still use CSS3 transitions; D3 does not replace the browser’s toolbox, but exposes it in a way that is easier to use.
+Dengan hanya memodifikasi atribut yang sesungguhnya mengubah, D3 mengurangi biaya dan memungkinkan kompleksitas grafis yang lebih pada _frame rate_. D3 juga memungkinkan merangkaikan transisi kompleks melalui event. Dan, Anda masih dapat menggunakan transisi CSS; D3 tidak menggantikan toolbox perambah, namun mengeksposnya dalam cara yang mudah untuk digunakan.
 
-Want to learn more? Read these tutorials. 
+Ingin belajar lebih? Bacalah tutorial-tutorial berikut ini.
