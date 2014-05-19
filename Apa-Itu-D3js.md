@@ -56,7 +56,7 @@ d3.selectAll("p").style("color", function() {
 });
 ```
 
-To alternate shades of gray for even and odd nodes:
+Untuk alternatif warna abu-abu untuk node genap dan ganjil:
 
 ```
 d3.selectAll("p").style("color", function(d, i) {
@@ -64,7 +64,7 @@ d3.selectAll("p").style("color", function(d, i) {
 });
 ```
 
-Computed properties often refer to bound data. Data is specified as an array of values, and each value is passed as the first argument (d) to selection functions. With the default join-by-index, the first element in the data array is passed to the first node in the selection, the second element to the second node, and so on. For example, if you bind an array of numbers to paragraph elements, you can use these numbers to compute dynamic font sizes:
+Properti yang dihitung sering mengacu pada data terikat. Data ditentukan sebagai array nilai, dan setiap nilai diteruskan sebagai argumen pertama (d) pada fungsi seleksi. Dengan default join-by-index, elemen pertama dalam array data diteruskan pada node pertama dalam seleksi, elemen kedua ke node kedua, dan seterusnya. Sebagai contoh, bila Anda mengikat suatu array bilangan ke elemen paragraf, Anda dapat menggunakan bilangan-bilangan tersebut untuk menghitung ukuran font secara dinamis:
 
 ```
 d3.selectAll("p")
@@ -72,7 +72,7 @@ d3.selectAll("p")
     .style("font-size", function(d) { return d + "px"; });
 ```
 
-Once the data has been bound to the document, you can omit the data operator; D3 will retrieve the previously-bound data. This allows you to recompute properties without rebinding.
+Pada saat data telah diikat pada dokumen, Anda dapat mengabaikan operator data; D3 akan mendapatkan kembali data yang sebelumnya diikat. Hal ini memungkinkan Anda untuk menghitung kembali properti tanpa mengikat ulang.
 
 ## Enter and Exit
 
