@@ -7,7 +7,7 @@
 * [Pengantar](http://d3js.org/)
 * [Gallery contoh-contoh](/mbostock/d3/Gallery)
 * [[Tutorial dan Diskusi|Tutorials]]
-* [[Referensi API|API Reference]]
+* [Referensi API|](/mbostock/d3/API Reference)
 * [Catatan Rilis](/mbostock/d3/releases)
 * [Plugins](/d3/d3-plugins)
 * [Pertanyaan mengenai d3.js di Stack Overflow](http://stackoverflow.com/questions/tagged/d3.js)
