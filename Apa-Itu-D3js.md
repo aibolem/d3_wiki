@@ -46,9 +46,9 @@ D3 menyediakan banyak sekali metode untuk mengubah node: mengeset atribut atau s
 
 ## Dynamic Properties
 
-Readers familiar with other DOM frameworks such as jQuery or Prototype should immediately recognize similarities with D3. Yet styles, attributes, and other properties can be specified as functions of data in D3, not just simple constants. Despite their apparent simplicity, these functions can be surprisingly powerful; the d3.geo.path function, for example, projects geographic coordinates into SVG path data. D3 provides many built-in reusable functions and function factories, such as graphical primitives for area, line and pie charts.
+Pembaca yang telah terbiasa dengan framework-framework DOM lainnya seperti jQuery atau Prototype harusnya segera mengenali kesamaannya dengan D3. Namun style, atribut, atau properti lainnya dapat ditentukan sebagai fungsi dari data pada D3, bukan hanya sebagai konstanta. Meskipun kesederhanaannya nampak jelas, fungsinya ternyata juga sangat powerful; fungsi d3.geo.path misalnya, memproyeksikan koordinat geografis menjadi data path SVG. D3 menyediakan banyak fungsi-fungsi bawaan dan buatan yang dapat digunakan kembali, seperti grafis primitif untuk area, diagram garis dan pie chart.
 
-For example, to randomly color paragraphs:
+Sebagai contoh, untuk secara acak memberi warna pada paragraf:
 
 ```
 d3.selectAll("p").style("color", function() {
