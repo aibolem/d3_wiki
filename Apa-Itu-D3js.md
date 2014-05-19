@@ -109,7 +109,7 @@ D3 memungkinkan Anda mentransformasi dokumen berdasarkan data; hal ini termasuk 
 
 ## Transformasi, bukan Representasi
 
-D3 bukanlah representasi grafis baru. Tidak seperti Processing, Raphaël, atau Protovis, perbendaharaan tanda langsung berasal dari web standard: HTML, SVG dan CSS. Sebagai contoh, Anda dapat membuat elemen SVG menggunakan D3 dan memberi style menggunakan stylesheet eksternal. Anda dapat menggunakan efek filter komposit, garis dash dan kliping. Bila pembuat perambah memperkenalkan fitur baru esok, Anda akan bisa menggunakannya langsung tanpa dibutuhkan update toolkit. Dan, bila Anda memutuskan di masa yang akan datang untuk menggunakan toolkit bukan D3, Anda dapat membawa pengetahuan akan standard bersama Anda!
+D3 bukanlah representasi grafis baru. Tidak seperti [[Processing|http://processing.org/]], [[Raphaël|http://raphaeljs.com/]], atau [[Protovis|http://vis.stanford.edu/protovis/]], perbendaharaan tanda langsung berasal dari web standard: HTML, SVG dan CSS. Sebagai contoh, Anda dapat membuat elemen SVG menggunakan D3 dan memberi style menggunakan stylesheet eksternal. Anda dapat menggunakan efek filter komposit, garis dash dan kliping. Bila pembuat perambah memperkenalkan fitur baru esok, Anda akan bisa menggunakannya langsung tanpa dibutuhkan update toolkit. Dan, bila Anda memutuskan di masa yang akan datang untuk menggunakan toolkit bukan D3, Anda dapat membawa pengetahuan akan standard bersama Anda!
 
 Yang terbaik dari semuanya, D3 mudah untuk di-debug menggunakan inspektor elemen bawaan perambah: node yang Anda manipulasi dengan D3 adalah persis apa yang perambah mengerti secara _native_.
 
