@@ -50,21 +50,27 @@ Readers familiar with other DOM frameworks such as jQuery or Prototype should im
 
 For example, to randomly color paragraphs:
 
+```
 d3.selectAll("p").style("color", function() {
   return "hsl(" + Math.random() * 360 + ",100%,50%)";
 });
+```
 
 To alternate shades of gray for even and odd nodes:
 
+```
 d3.selectAll("p").style("color", function(d, i) {
   return i % 2 ? "#fff" : "#eee";
 });
+```
 
 Computed properties often refer to bound data. Data is specified as an array of values, and each value is passed as the first argument (d) to selection functions. With the default join-by-index, the first element in the data array is passed to the first node in the selection, the second element to the second node, and so on. For example, if you bind an array of numbers to paragraph elements, you can use these numbers to compute dynamic font sizes:
 
+```
 d3.selectAll("p")
     .data([4, 8, 15, 16, 23, 42])
     .style("font-size", function(d) { return d + "px"; });
+```
 
 Once the data has been bound to the document, you can omit the data operator; D3 will retrieve the previously-bound data. This allows you to recompute properties without rebinding.
 
@@ -76,13 +82,16 @@ Using D3’s enter and exit selections, you can create new nodes for incoming da
 
 When data is bound to a selection, each element in the data array is paired with the corresponding node in the selection. If there are fewer nodes than data, the extra data elements form the enter selection, which you can instantiate by appending to the enter selection. For example:
 
+```
 d3.select("body").selectAll("p")
     .data([4, 8, 15, 16, 23, 42])
   .enter().append("p")
     .text(function(d) { return "I’m number " + d + "!"; });
+```
 
 Updating nodes are the default selection—the result of the data operator. Thus, if you forget about the enter and exit selections, you will automatically select only the elements for which there exists corresponding data. A common pattern is to break the initial selection into three parts: the updating nodes to modify, the entering nodes to add, and the exiting nodes to remove.
 
+```
 // Update…
 var p = d3.select("body").selectAll("p")
     .data([4, 8, 15, 16, 23, 42])
@@ -94,6 +103,7 @@ p.enter().append("p")
 
 // Exit…
 p.exit().remove();
+```
 
 By handling these three cases separately, you specify precisely which operations run on which nodes. This improves performance and offers greater control over transitions. For example, with a bar chart you might initialize entering bars using the old scale, and then transition entering bars to the new scale along with the updating and exiting bars.
 
@@ -111,15 +121,19 @@ D3’s focus on transformation extends naturally to animated transitions. Transi
 
 For example, to fade the background of the page to black:
 
+```
 d3.select("body").transition()
     .style("background-color", "black");
+```
 
 Or, to resize circles in a symbol map with a staggered delay:
 
+```
 d3.selectAll("circle").transition()
     .duration(750)
     .delay(function(d, i) { return i * 10; })
     .attr("r", function(d) { return Math.sqrt(d * scale); });
+```
 
 By modifying only the attributes that actually change, D3 reduces overhead and allows greater graphical complexity at high frame rates. D3 also allows sequencing of complex transitions via events. And, you can still use CSS3 transitions; D3 does not replace the browser’s toolbox, but exposes it in a way that is easier to use.
 
