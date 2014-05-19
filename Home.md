@@ -7,14 +7,14 @@
 * [Pengantar](http://d3js.org/)
 * [Gallery contoh-contoh](/mbostock/d3/Gallery)
 * [[Tutorial dan Diskusi|Tutorials]]
-* [Referensi API|](/mbostock/d3/wiki/API-Reference)
+* [Referensi API](/mbostock/d3/wiki/API-Reference)
 * [Catatan Rilis](/mbostock/d3/releases)
 * [Plugins](/d3/d3-plugins)
 * [Pertanyaan mengenai d3.js di Stack Overflow](http://stackoverflow.com/questions/tagged/d3.js)
 * [Milis d3-js di Google Group](http://groups.google.com/group/d3-js)
 * [한국어](https://github.com/zziuni/d3/wiki)
-* [日本語](/mbostock/d3/wiki/JP-Home)
-* [中文](/mbostock/d3/wiki/CN-Home)
+* [Bahasa Jepang - 日本語](/mbostock/d3/wiki/JP-Home)
+* [Bahasa Tiongkok - 中文](/mbostock/d3/wiki/CN-Home)
 * [[Referensi API dalam Bahasa Rusia|API Reference (русскоязычная версия)]]
 
 
