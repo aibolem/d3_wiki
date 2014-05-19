@@ -44,7 +44,7 @@ Selektor didefinisikan oleh [W3C Selectors API](http://www.w3.org/TR/selectors-a
 
 D3 menyediakan banyak sekali metode untuk mengubah node: mengeset atribut atau style; meregister _event listeners_; menambahkan, menghapus atau menyortir node; dan mengubah isi HTML atau teks. Semua hal tersebut cukup untuk sebagian besar kebutuhan. Akses langsung ke pokok dari DOM juga dimungkinkan, sebagaimana setiap seleksi D3 hanyalah array dari node. 
 
-## Dynamic Properties
+## Properti Dinamis
 
 Pembaca yang telah terbiasa dengan framework-framework DOM lainnya seperti [[jQuery|http://jquery.com/]] atau [[Prototype|http://www.prototypejs.org/]] harusnya segera mengenali kesamaannya dengan D3. Namun style, atribut, atau properti lainnya dapat ditentukan sebagai fungsi dari data pada D3, bukan hanya sebagai konstanta. Meskipun kesederhanaannya nampak jelas, fungsinya ternyata juga sangat powerful; fungsi d3.geo.path misalnya, memproyeksikan [koordinat geografis](http://geojson.org/) menjadi [data path SVG](http://www.w3.org/TR/SVG/paths.html#PathData). D3 menyediakan banyak fungsi-fungsi bawaan dan buatan yang dapat digunakan kembali, seperti [grafis primitif](/mbostock/d3/wiki/SVG-Shapes) untuk area, diagram garis dan pie chart.
 
@@ -74,7 +74,7 @@ d3.selectAll("p")
 
 Pada saat data telah diikat pada dokumen, Anda dapat mengabaikan operator data; D3 akan mendapatkan kembali data yang sebelumnya diikat. Hal ini memungkinkan Anda untuk menghitung kembali properti tanpa mengikat ulang.
 
-## Enter and Exit
+## Enter dan Exit
 
 Menggunakan seleksi enter dan exit D3, Anda dapat membuat node baru untuk data yang masuk dan menghapus node keluar yang tidak lagi dibutuhkan.
 
