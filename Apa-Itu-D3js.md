@@ -18,7 +18,7 @@ D3 bukanlah framework monolitik yang bertujuan menyediakan berbagai macam fitur.
 
 ## Seleksi
 
-Modifying documents using the W3C DOM API is tedious: the method names are verbose, and the imperative approach requires manual iteration and bookkeeping of temporary state. For example, to change the text color of paragraph elements: 
+Modifying documents using the [W3C DOM API](http://www.w3.org/DOM/DOMTR) is tedious: the method names are verbose, and the imperative approach requires manual iteration and bookkeeping of temporary state. For example, to change the text color of paragraph elements: 
 
 ```
 var paragraphs = document.getElementsByTagName("p");
@@ -40,6 +40,6 @@ Yet, you can still manipulate individual nodes as needed:
 d3.select("body").style("background-color", "black");
 ```
 
-Selectors are defined by the W3C Selectors API and supported natively by modern browsers. Backwards-compatibility for older browsers can be provided by Sizzle. The above examples select nodes by tag name ("p" and "body", respectively). Elements may be selected using a variety of predicates, including containment, attribute values, class and ID.
+Selectors are defined by the [W3C Selectors API](http://www.w3.org/TR/selectors-api/) and supported natively by modern browsers. Backwards-compatibility for older browsers can be provided by [Sizzle](http://sizzlejs.com/). The above examples select nodes by tag name ("p" and "body", respectively). Elements may be selected using a variety of predicates, including containment, attribute values, class and ID.
 
 D3 provides numerous methods for mutating nodes: setting attributes or styles; registering event listeners; adding, removing or sorting nodes; and changing HTML or text content. These suffice for the vast majority of needs. Direct access to the underlying DOM is also possible, as each D3 selection is simply an array of nodes. 
