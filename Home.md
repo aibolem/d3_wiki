@@ -6,7 +6,7 @@
 
 * [Pengantar](http://d3js.org/)
 * [Gallery contoh-contoh](/mbostock/d3/Gallery)
-* [[Tutorial dan Diskusi|Tutorials]]
+* [Tutorial dan Diskusi](/mbostock/d3/Tutorials)
 * [Referensi API](/mbostock/d3/wiki/API-Reference)
 * [Catatan Rilis](/mbostock/d3/releases)
 * [Plugins](/d3/d3-plugins)
