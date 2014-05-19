@@ -18,8 +18,8 @@ D3 bukanlah framework monolitik yang bertujuan menyediakan berbagai macam fitur.
 
 Modifying documents using the W3C DOM API is tedious: the method names are verbose, and the imperative approach requires manual iteration and bookkeeping of temporary state. For example, to change the text color of paragraph elements: 
 
-`var paragraphs = document.getElementsByTagName("p");`
-`for (var i = 0; i < paragraphs.length; i++) {`
-  `var paragraph = paragraphs.item(i);`
-  `paragraph.style.setProperty("color", "white", null);`
-`}`
+`var paragraphs = document.getElementsByTagName("p");
+for (var i = 0; i < paragraphs.length; i++) {
+  var paragraph = paragraphs.item(i);
+  paragraph.style.setProperty("color", "white", null);
+}`
