@@ -4,4 +4,4 @@ Download D3 versi terakhir di [sini](/mbostock/d3/releases).
 
 Atau, dengan membuat link secara langsung ke rilis terakhir, kopi potongan kode berikut ini:
 
-`<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>`
+> `<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>`
