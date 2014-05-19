@@ -8,7 +8,7 @@
 * [[Gallery contoh-contoh|Gallery]]
 * [[Tutorial dan Diskusi|Tutorials]]
 * [[Referensi API|API Reference]]
-* [Release Notes](/mbostock/d3/releases)
+* [Catatan Rilis](/mbostock/d3/releases)
 * [Plugins](/d3/d3-plugins)
 * [Pertanyaan mengenai d3.js di Stack Overflow](http://stackoverflow.com/questions/tagged/d3.js)
 * [Milis d3-js di Google Group](http://groups.google.com/group/d3-js)
