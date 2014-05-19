@@ -4,10 +4,10 @@
 
 ## Sumber Daya
 
-* [Introduction](http://d3js.org/)
-* [[Examples Gallery|Gallery]]
-* [[Tutorials and Talks|Tutorials]]
-* [[API Reference]]
+* [Pengantar](http://d3js.org/)
+* [[Gallery contoh-contoh|Gallery]]
+* [[Tutorial dan Diskusi|Tutorials]]
+* [[Referensi API|API Reference]]
 * [Release Notes](/mbostock/d3/releases)
 * [Plugins](/d3/d3-plugins)
 * [d3.js on Stack Overflow](http://stackoverflow.com/questions/tagged/d3.js)
