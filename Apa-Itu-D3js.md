@@ -4,7 +4,9 @@ Download D3 versi terakhir di [sini](/mbostock/d3/releases).
 
 Atau, dengan membuat link secara langsung ke rilis terakhir, kopi potongan kode berikut ini:
 
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+```
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+```
 
 Situs-situs yang menggunakan HTTPS dapat me-host sendiri D3, atau menggunakan CDN yang mendukung HTTPS, seperti CDNJS. [Kode sumber lengkap dan tes](https://github.com/mbostock/d3) juga tersedia untuk [didownload](https://github.com/mbostock/d3/zipball/master) di GitHub.
 
