@@ -15,7 +15,7 @@
 * [한국어](https://github.com/zziuni/d3/wiki)
 * [Bahasa Jepang - 日本語](/mbostock/d3/wiki/JP-Home)
 * [Bahasa Tiongkok - 中文](/mbostock/d3/wiki/CN-Home)
-* [[Referensi API dalam Bahasa Rusia|API Reference (русскоязычная версия)]]
+* [Referensi API dalam Bahasa Rusia - API Reference (русскоязычная версия)](/mbostock/d3/wiki/API-Reference-(русскоязычная версия))
 
 
 ## Dukungan Perambah Web
