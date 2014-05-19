@@ -42,7 +42,7 @@ d3.select("body").style("background-color", "black");
 
 Selektor didefinisikan oleh [W3C Selectors API](http://www.w3.org/TR/selectors-api/) dan didukung oleh perambah-perambah web modern. Kompatibilitas ke belakang oleh perambah-perambah tua dapat disediakan menggunakan [Sizzle](http://sizzlejs.com/). Contoh di atas memilih (_select_) node berdasarkan nama tag (masing-masing "p" dan "body"). Elemen-elemen dapat diseleksi menggunakan berbagai macam perdikat, termasuk _containment_, nilai atribut, class dan ID.
 
-D3 menyediakan banyak sekali metode untuk mengubah node: mengeset atribut atau style; meregister _event listeners_; menambahkan, menghapus atau menyortir node; dan mengubah isi HTML atau teks. removing or sorting nodes; and changing HTML or text content. These suffice for the vast majority of needs. Direct access to the underlying DOM is also possible, as each D3 selection is simply an array of nodes. 
+D3 menyediakan banyak sekali metode untuk mengubah node: mengeset atribut atau style; meregister _event listeners_; menambahkan, menghapus atau menyortir node; dan mengubah isi HTML atau teks. Semua hal tersebut cukup untuk sebagian besar kebutuhan. Akses langsung ke pokok dari DOM juga dimungkinkan, sebagaimana setiap seleksi D3 hanyalah array dari node. 
 
 ## Dynamic Properties
 
