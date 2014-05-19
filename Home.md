@@ -5,7 +5,7 @@
 ## Sumber Daya
 
 * [Pengantar](http://d3js.org/)
-* [Gallery contoh-contoh](/mbostock/d3/Gallery
+* [Gallery contoh-contoh](/mbostock/d3/Gallery)
 * [[Tutorial dan Diskusi|Tutorials]]
 * [[Referensi API|API Reference]]
 * [Catatan Rilis](/mbostock/d3/releases)
