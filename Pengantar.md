@@ -6,4 +6,4 @@ Atau, dengan membuat link secara langsung ke rilis terakhir, kopi potongan kode 
 
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
-Situs-situs yang menggunakan HTTPS dapat me-host sendiri D3, atau menggunakan CDN yang mendukung HTTPS, seperti CDNJS. Kode sumber sepenuhnya dan tes juga tersedia untuk didownload di GitHub.
+Situs-situs yang menggunakan HTTPS dapat me-host sendiri D3, atau menggunakan CDN yang mendukung HTTPS, seperti CDNJS. [Kode sumber sepenuhnya dan tes](https://github.com/mbostock/d3) juga tersedia untuk [didownload](https://github.com/mbostock/d3/zipball/master) di GitHub.
