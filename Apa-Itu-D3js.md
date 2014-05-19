@@ -76,11 +76,9 @@ Pada saat data telah diikat pada dokumen, Anda dapat mengabaikan operator data; 
 
 ## Enter and Exit
 
-Read more about data joins.
+Menggunakan seleksi enter dan exit D3, Anda dapat membuat node baru untuk data yang masuk dan menghapus node keluar yang tidak lagi dibutuhkan.
 
-Using D3’s enter and exit selections, you can create new nodes for incoming data and remove outgoing nodes that are no longer needed.
-
-When data is bound to a selection, each element in the data array is paired with the corresponding node in the selection. If there are fewer nodes than data, the extra data elements form the enter selection, which you can instantiate by appending to the enter selection. For example:
+Ketika data diikatkan pada seleksi, setiap elemen dalam array data dipasangkan dengan node yang berhubungan dalam seleksi. Bila terdapat lebih sedikit node dibandingkan data, elemen data ekstra membentuk seleksi enter, yang dapat anda instansiasi dengan menambahkan seleksi enter. Sebagai contoh:
 
 ```
 d3.select("body").selectAll("p")
