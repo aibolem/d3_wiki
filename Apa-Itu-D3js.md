@@ -46,7 +46,7 @@ D3 menyediakan banyak sekali metode untuk mengubah node: mengeset atribut atau s
 
 ## Properti Dinamis
 
-Pembaca yang telah terbiasa dengan framework-framework DOM lainnya seperti [[jQuery|http://jquery.com/]] atau [[Prototype|http://www.prototypejs.org/]] harusnya segera mengenali kesamaannya dengan D3. Namun style, atribut, atau properti lainnya dapat ditentukan sebagai fungsi dari data pada D3, bukan hanya sebagai konstanta. Meskipun kesederhanaannya nampak jelas, fungsinya ternyata juga sangat powerful; fungsi d3.geo.path misalnya, memproyeksikan [koordinat geografis](http://geojson.org/) menjadi [data path SVG](http://www.w3.org/TR/SVG/paths.html#PathData). D3 menyediakan banyak fungsi-fungsi bawaan dan _function_factory_ yang dapat digunakan kembali, seperti [grafis primitif](/mbostock/d3/wiki/SVG-Shapes) untuk area, diagram garis dan pie chart.
+Pembaca yang telah terbiasa dengan framework-framework DOM lainnya seperti [[jQuery|http://jquery.com/]] atau [[Prototype|http://www.prototypejs.org/]] harusnya segera mengenali kesamaannya dengan D3. Namun style, atribut, atau properti lainnya dapat ditentukan sebagai fungsi dari data pada D3, bukan hanya sebagai konstanta. Meskipun kesederhanaannya nampak jelas, fungsinya ternyata juga sangat powerful; fungsi d3.geo.path misalnya, memproyeksikan [koordinat geografis](http://geojson.org/) menjadi [data path SVG](http://www.w3.org/TR/SVG/paths.html#PathData). D3 menyediakan banyak fungsi-fungsi bawaan dan _function factory_ yang dapat digunakan kembali, seperti [grafis primitif](/mbostock/d3/wiki/SVG-Shapes) untuk area, diagram garis dan pie chart.
 
 Sebagai contoh, untuk secara acak memberi warna pada paragraf:
 
