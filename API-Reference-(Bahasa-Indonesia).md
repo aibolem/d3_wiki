@@ -1,19 +1,19 @@
 > [Wiki](Home) ▸ **API Reference**
 
-Everything in D3 is scoped under the `d3` namespace.
+Segala sesuatu di dalam D3 dicakup di dalam namespace `d3`.
 
-D3 uses [[semantic versioning|http://semver.org]]. You can find the current version of D3 as `d3.version`.
+D3 menggunakan [[semantic versioning|http://semver.org]]. Anda dapat menemukan versi terkini D3 sebagai `d3.version`.
 
-See one of:
+Lihat salah satu dari:
 
-* [Core](#d3-core) - selections, transitions, data, localization, colors, etc.
-* [Scales](#d3scale-scales) - convert between data and visual encodings
-* [SVG](#d3svg-svg) - utilities for creating Scalable Vector Graphics
-* [Time](#d3time-time) - parse or format times, compute calendar intervals, etc.
-* [Layouts](#d3layout-layouts) - derive secondary data for positioning elements
-* [Geography](#d3geo-geography) - project spherical coordinates, latitude & longitude math
-* [Geometry](#d3geom-geometry) - utilities for 2D geometry, such as Voronoi diagrams and quadtrees
-* [Behaviors](#d3behavior-behaviors) - reusable interaction behaviors
+* [Core](#d3-core) - seleksi, transisi, data, lokalisasi, warna, dll.
+* [Scales](#d3scale-scales) - konversi antara data dan enkoding visual
+* [SVG](#d3svg-svg) - utilitas untuk membuat Scalable Vector Graphics
+* [Time](#d3time-time) - memparsing atau memformat time, menghitung interval kalender, dll.
+* [Layouts](#d3layout-layouts) - mendapatkan data sekunder untuk posisi elemen
+* [Geography](#d3geo-geography) - memproyeksikan koordinat bulatan, perhitungan latitude & longitude
+* [Geometry](#d3geom-geometry) - utilitas untuk geometri 2D, seperti diagram Voronoi diagrams dan quadtrees
+* [Behaviors](#d3behavior-behaviors) - perilaku interaksi yang dapat digunakan kembali
 
 ## [d3 (core)](Core)
 
