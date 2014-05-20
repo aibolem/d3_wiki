@@ -19,17 +19,17 @@ Lihat salah satu dari:
 
 ### [[Selections]]
 
-* [[d3.select|Selections#wiki-d3_select]] - select an element from the current document.
-* [[d3.selectAll|Selections#wiki-d3_selectAll]] - select multiple elements from the current document.
-* [[selection.attr|Selections#wiki-attr]] - get or set attribute values.
-* [[selection.classed|Selections#wiki-classed]] - add or remove CSS classes.
-* [[selection.style|Selections#wiki-style]] - get or set style properties.
-* [[selection.property|Selections#wiki-property]] - get or set raw properties.
-* [[selection.text|Selections#wiki-text]] - get or set text content.
-* [[selection.html|Selections#wiki-html]] - get or set inner HTML content.
-* [[selection.append|Selections#wiki-append]] - create and append new elements.
-* [[selection.insert|Selections#wiki-insert]] - create and insert new elements before existing elements.
-* [[selection.remove|Selections#wiki-remove]] - remove elements from the document.
+* [[d3.select|Selections#wiki-d3_select]] - memilih elemen dari dokumen saat ini.
+* [[d3.selectAll|Selections#wiki-d3_selectAll]] - memilih berbagai elemen dari dokumen.
+* [[selection.attr|Selections#wiki-attr]] - mendapatkan atau mengeset nilai artibut.
+* [[selection.classed|Selections#wiki-classed]] - menambah atau menghilangkan CSS class.
+* [[selection.style|Selections#wiki-style]] - mendapatkan atau mengeset properti style.
+* [[selection.property|Selections#wiki-property]] - mendapatkan atau mengeset properti mentah.
+* [[selection.text|Selections#wiki-text]] - mendapatkan atau mengeset properti isi teks.
+* [[selection.html|Selections#wiki-html]] - mendapatkan atau mengeset isi dalam HTML.
+* [[selection.append|Selections#wiki-append]] - membuat atau menambahkan elemen baru.
+* [[selection.insert|Selections#wiki-insert]] - membuat dan menyisipkan elemen baru sebelum elemen yang ada.
+* [[selection.remove|Selections#wiki-remove]] - menghilangkan elemen dari dokumen.
 * [[selection.data|Selections#wiki-data]] - get or set data for a group of elements, while computing a relational join.
 * [[selection.enter|Selections#wiki-enter]] - returns placeholders for missing elements.
 * [[selection.exit|Selections#wiki-exit]] - returns elements that are no longer needed.
