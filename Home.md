@@ -2,7 +2,7 @@
 
 **D3.js** adalah pustaka JavaScript untuk manipulasi dokumen berdasarkan data. D3 membantu anda menyajikan data menggunakan HTML, SVG dan CSS. Penekanan D3 pada standard web memberi Anda kompatibilitas penuh trerhadap perambah web (_web browser_) modern tanpa mengkaitkan anda dengan _framework proprietary_, menggabungkan komponen-komponen visualisasi yang powerful dan pendekatan berdasarkan data pada manipulasi DOM (_Document Object Model_).
 
-## Sumber Daya
+## Resources
 
 * [[Pengantar|Apa itu D3js]]
 * [Gallery contoh-contoh](/mbostock/d3/wiki/Gallery)
@@ -18,13 +18,13 @@
 * [Referensi API dalam Bahasa Rusia - API Reference (русскоязычная версия)](/mbostock/d3/wiki/API-Reference-(русскоязычная версия))
 
 
-## Dukungan Perambah Web
+## Browser Support
 
-D3 mendukung apa yang disebut sebagai perambah web “modern”, yang umumnya semua perambah _kecuali_ IE8 dan dibawahnya. D3 diujicoba terhadap Firefox, Chrome (Chromium), Safari (WebKit), Opera dan IE9. Beberapa bagian dari D3 mungkin dapat berjalan pada perambah yang lebih tua, karena pustaka inti (_core_) mempunyai _requirement_ minimal: JavaScript dan API [W3C DOM](http://www.w3.org/DOM/). Untuk IE8, direkomendasikan menggunakan pustaka kompatibilitas [Aight](https://github.com/shawnbot/aight). D3 memnggunakan [Selectors API](http://www.w3.org/TR/selectors-api/) Level 1, tapi Anda dapat mem-preload [Sizzle](http://sizzlejs.com/) untuk kompatibilitas. Anda akan membutuhkan perambah modern untuk menggunakan [SVG](http://www.w3.org/TR/SVG/) dan [CSS3 Transitions](http://www.w3.org/TR/css3-transitions/). D3 bukanlah suatu lapisan kompatibilitas, jadi bila perambah Anda tidak mendukung standard, Anda tidak beruntung. Mohon maaf :)
+D3 mendukung apa yang disebut sebagai perambah (browser) web “modern”, yang umumnya semua perambah _kecuali_ IE8 dan dibawahnya. D3 diujicoba terhadap Firefox, Chrome (Chromium), Safari (WebKit), Opera dan IE9. Beberapa bagian dari D3 mungkin dapat berjalan pada perambah yang lebih tua, karena pustaka inti (_core_) mempunyai _requirement_ minimal: JavaScript dan API [W3C DOM](http://www.w3.org/DOM/). Untuk IE8, direkomendasikan menggunakan pustaka kompatibilitas [Aight](https://github.com/shawnbot/aight). D3 memnggunakan [Selectors API](http://www.w3.org/TR/selectors-api/) Level 1, tapi Anda dapat mem-preload [Sizzle](http://sizzlejs.com/) untuk kompatibilitas. Anda akan membutuhkan perambah modern untuk menggunakan [SVG](http://www.w3.org/TR/SVG/) dan [CSS3 Transitions](http://www.w3.org/TR/css3-transitions/). D3 bukanlah suatu lapisan kompatibilitas, jadi bila perambah Anda tidak mendukung standard, Anda tidak beruntung. Mohon maaf :)
 
 D3 bekerja juga dengan Node.js. Lihat <https://groups.google.com/forum/#!msg/d3-js/JyldAkWkTvI/n8thanJeGvAJ> untuk detailnya.
 
-## Menginstal
+## Installing
 
 Unduh versi terakhir di sini:
 
@@ -48,7 +48,7 @@ atau untuk Python 3+
 
     python -m http.server 8888 &
 
-Setelh berjalan, masuk ke <http://localhost:8888/>.
+Setelah berjalan, masuk ke <http://localhost:8888/>.
 
 D3 mendukung API definisi modul asinkronos (asynchronous module definition - AMD). Sebagai contoh, bila Anda menggunakan [RequireJS](http://requirejs.org/), Anda mungkin me-load yang berikut ini:
 
@@ -60,7 +60,7 @@ require(["d3"], function(d3) {
 });
 ```
 
-## Memodifikasi
+## Modifying
 
 Bila Anda ingin memodifikasi bagaimana D3 diimplementasikan, klik tombol "Fork" pada pojok kanan-atas dari halaman ini, dan kemudian _clone_ menjadi _fork_ Anda dengan perintah _command line_ dengan mengganti *username* dengan *username* Github Anda:
 
