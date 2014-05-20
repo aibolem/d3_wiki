@@ -30,23 +30,23 @@ Lihat salah satu dari:
 * [[selection.append|Selections#wiki-append]] - membuat atau menambahkan elemen baru.
 * [[selection.insert|Selections#wiki-insert]] - membuat dan menyisipkan elemen baru sebelum elemen yang ada.
 * [[selection.remove|Selections#wiki-remove]] - menghilangkan elemen dari dokumen.
-* [[selection.data|Selections#wiki-data]] - get or set data for a group of elements, while computing a relational join.
-* [[selection.enter|Selections#wiki-enter]] - returns placeholders for missing elements.
-* [[selection.exit|Selections#wiki-exit]] - returns elements that are no longer needed.
-* [[selection.datum|Selections#wiki-datum]] - get or set data for individual elements, without computing a join.
-* [[selection.filter|Selections#wiki-filter]] - filter a selection based on data.
-* [[selection.sort|Selections#wiki-sort]] - sort elements in the document based on data.
-* [[selection.order|Selections#wiki-order]] - reorders elements in the document to match the selection.
-* [[selection.on|Selections#wiki-on]] - add or remove event listeners for interaction.
-* [[selection.transition|Selections#wiki-transition]] - start a transition on the selected elements.
-* [selection.interrupt](Selections#wiki-interrupt) - immediately interrupt the current transition, if any.
-* [[selection.each|Selections#wiki-each]] - call a function for each selected element.
-* [[selection.call|Selections#wiki-call]] - call a function passing in the current selection.
-* [[selection.empty|Selections#wiki-empty]] - returns true if the selection is empty.
-* [[selection.node|Selections#wiki-node]] - returns the first node in the selection.
-* [selection.size](Selections#wiki-size) - returns the number of elements in the selection.
-* [[selection.select|Selections#wiki-select]] - subselect a descendant element for each selected element.
-* [[selection.selectAll|Selections#wiki-selectAll]] - subselect multiple descendants for each selected element.
+* [[selection.data|Selections#wiki-data]] - mendapatkan atau mengeset untuk sekelompok elemen, ketika menghitung gabungan relasi.
+* [[selection.enter|Selections#wiki-enter]] - mengembalikan tempat untuk elemen yang hilang.
+* [[selection.exit|Selections#wiki-exit]] - mengembalikan elemen yang tidak lagi dibutuhkan.
+* [[selection.datum|Selections#wiki-datum]] - mendapatkan atau mengeset data untuk masing-masing elemen, tanpa menghitung untuk menggabungkan.
+* [[selection.filter|Selections#wiki-filter]] - menyaring seleksi berdasarkan data.
+* [[selection.sort|Selections#wiki-sort]] - menyortir elemen di dalam dokumen berdasarkan data.
+* [[selection.order|Selections#wiki-order]] - menyusun ulang elemen di dalam dokumen untuk mencocokkan seleksi.
+* [[selection.on|Selections#wiki-on]] - menambah atau menghapus _event listener_ untuk interaksi.
+* [[selection.transition|Selections#wiki-transition]] - memulai transisi pada elemen yang diseleksi.
+* [selection.interrupt](Selections#wiki-interrupt) - segera menginterupsi transisi saat ini, bila ada.
+* [[selection.each|Selections#wiki-each]] - memanggil fungsi untuk setiap elemen yang diseleksi.
+* [[selection.call|Selections#wiki-call]] - memanggil fungsi yang dilewatkan pada seleksi saat ini.
+* [[selection.empty|Selections#wiki-empty]] - mengembalikan true bila seleksi kosong.
+* [[selection.node|Selections#wiki-node]] - mengembalikan node pertama dalam seleksi.
+* [selection.size](Selections#wiki-size) - mengembalikan jumlah elemen di dalam seleksi.
+* [[selection.select|Selections#wiki-select]] - mensubseleksi elemen turunan untuk setiap elemen yang diseleksi.
+* [[selection.selectAll|Selections#wiki-selectAll]] - mensubseleksi banyak turunan untuk setiap elemen yang diseleksi.
 * [[d3.selection|Selections#wiki-d3_selection]] - augment the selection prototype, or test instance types.
 * [[d3.event|Selections#wiki-d3_event]] - access the current user event for interaction.
 * [[d3.mouse|Selections#wiki-d3_mouse]] - gets the mouse position relative to a specified container.
