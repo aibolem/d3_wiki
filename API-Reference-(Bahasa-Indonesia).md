@@ -47,11 +47,11 @@ Lihat salah satu dari:
 * [selection.size](Selections#wiki-size) - mengembalikan jumlah elemen di dalam seleksi.
 * [[selection.select|Selections#wiki-select]] - mensubseleksi elemen turunan untuk setiap elemen yang diseleksi.
 * [[selection.selectAll|Selections#wiki-selectAll]] - mensubseleksi banyak turunan untuk setiap elemen yang diseleksi.
-* [[d3.selection|Selections#wiki-d3_selection]] - augment the selection prototype, or test instance types.
-* [[d3.event|Selections#wiki-d3_event]] - access the current user event for interaction.
-* [[d3.mouse|Selections#wiki-d3_mouse]] - gets the mouse position relative to a specified container.
-* [[d3.touch|Selections#wiki-d3_touch]] - gets a touch position relative to a specified container.
-* [[d3.touches|Selections#wiki-d3_touches]] - gets the touch positions relative to a specified container.
+* [[d3.selection|Selections#wiki-d3_selection]] - menambah seleksi prototipe, atau mengetest tipe instans.
+* [[d3.event|Selections#wiki-d3_event]] - akses event pengguna saat ini untuk interaksi.
+* [[d3.mouse|Selections#wiki-d3_mouse]] - mengambil posisi mouse relatif terhadap kontainer yang sudah ditentukan.
+* [[d3.touch|Selections#wiki-d3_touch]] - mendapatkan posisi sentuh relatid terhadap kontainer yang sudah ditentukan.
+* [[d3.touches|Selections#wiki-d3_touches]] - mendapatkan posisi sentuh relatid terhadap kontainer yang sudah ditentukan.
 
 ### [Transitions](Transitions)
 
