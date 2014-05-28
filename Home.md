@@ -2,7 +2,7 @@
 
 **D3.js** adalah pustaka JavaScript untuk manipulasi dokumen berdasarkan data. D3 membantu anda menyajikan data menggunakan HTML, SVG dan CSS. Penekanan D3 pada standard web memberi Anda kompatibilitas penuh trerhadap perambah web (_web browser_) modern tanpa mengkaitkan anda dengan _framework proprietary_, menggabungkan komponen-komponen visualisasi yang powerful dan pendekatan berdasarkan data pada manipulasi DOM (_Document Object Model_).
 
-## Resources
+## Sumber Daya
 
 * [[Pengantar|Apa itu D3js]]
 * [Gallery contoh-contoh](/mbostock/d3/wiki/Gallery)
@@ -21,7 +21,7 @@ D3 mendukung apa yang disebut sebagai perambah (browser) web “modern”, yang 
 
 D3 bekerja juga dengan Node.js. Lihat <https://groups.google.com/forum/#!msg/d3-js/JyldAkWkTvI/n8thanJeGvAJ> untuk detailnya.
 
-## Installing
+## Menginstal
 
 Unduh versi terakhir di sini:
 
@@ -57,7 +57,7 @@ require(["d3"], function(d3) {
 });
 ```
 
-## Modifying
+## Memodifikasi
 
 Bila Anda ingin memodifikasi bagaimana D3 diimplementasikan, klik tombol "Fork" pada pojok kanan-atas dari halaman ini, dan kemudian _clone_ menjadi _fork_ Anda dengan perintah _command line_ dengan mengganti *username* dengan *username* Github Anda:
 
