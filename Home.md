@@ -15,7 +15,7 @@
 * [English](/mbostock/d3/wiki)
 
 
-## Browser Support
+## Dukungan Browser
 
 D3 mendukung apa yang disebut sebagai perambah (browser) web “modern”, yang umumnya semua perambah _kecuali_ IE8 dan dibawahnya. D3 diujicoba terhadap Firefox, Chrome (Chromium), Safari (WebKit), Opera dan IE9. Beberapa bagian dari D3 mungkin dapat berjalan pada perambah yang lebih tua, karena pustaka inti (_core_) mempunyai _requirement_ minimal: JavaScript dan API [W3C DOM](http://www.w3.org/DOM/). Untuk IE8, direkomendasikan menggunakan pustaka kompatibilitas [Aight](https://github.com/shawnbot/aight). D3 menggunakan [Selectors API](http://www.w3.org/TR/selectors-api/) Level 1, tapi Anda dapat mem-preload [Sizzle](http://sizzlejs.com/) untuk kompatibilitas. Anda akan membutuhkan perambah modern untuk menggunakan [SVG](http://www.w3.org/TR/SVG/) dan [CSS3 Transitions](http://www.w3.org/TR/css3-transitions/). D3 bukanlah suatu lapisan kompatibilitas, jadi bila perambah Anda tidak mendukung standard, Anda tidak beruntung. Mohon maaf :)
 
