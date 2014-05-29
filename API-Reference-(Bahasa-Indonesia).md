@@ -55,10 +55,10 @@ Lihat salah satu dari:
 
 ### [Transitions](Transitions)
 
-* [d3.transition](Transitions#wiki-d3_transition) - start an animated transition.
-* [transition.delay](Transitions#wiki-delay) - specify per-element delay in milliseconds.
-* [transition.duration](Transitions#wiki-duration) - specify per-element duration in milliseconds.
-* [transition.ease](Transitions#wiki-ease) - specify transition easing function.
+* [d3.transition](Transitions#wiki-d3_transition) - memulai animasi transisi.
+* [transition.delay](Transitions#wiki-delay) - menentukan delay per-element dalam milliseconds.
+* [transition.duration](Transitions#wiki-duration) - menentukan durasi per-element dalam milliseconds.
+* [transition.ease](Transitions#wiki-ease) - menentukan fungsi memelankan transisi.
 * [transition.attr](Transitions#wiki-attr) - smoothly transition to the new attribute value.
 * [transition.attrTween](Transitions#wiki-attrTween) - smoothly transition between two attribute values.
 * [transition.style](Transitions#wiki-style) - smoothly transition to the new style property value.
