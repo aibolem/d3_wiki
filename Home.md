@@ -1,6 +1,6 @@
 > **Wiki**
 
-**D3.js** adalah pustaka JavaScript untuk manipulasi dokumen berdasarkan data. D3 membantu anda menyajikan data menggunakan HTML, SVG dan CSS. Penekanan D3 pada standard web memberi Anda kompatibilitas penuh trerhadap perambah web (_web browser_) modern tanpa mengkaitkan anda dengan _framework proprietary_, menggabungkan komponen-komponen visualisasi yang powerful dan pendekatan berdasarkan data pada manipulasi DOM (_Document Object Model_).
+**D3.js** adalah pustaka JavaScript untuk manipulasi dokumen berdasarkan data. D3 membantu anda menyajikan data menggunakan HTML, SVG dan CSS. Penekanan D3 pada standard web memberi Anda kompatibilitas penuh terhadap perambah web (_web browser_) modern tanpa mengkaitkan anda dengan _framework proprietary_, menggabungkan komponen-komponen visualisasi yang powerful dan pendekatan berdasarkan data pada manipulasi DOM (_Document Object Model_).
 
 ## Sumber Daya
 
