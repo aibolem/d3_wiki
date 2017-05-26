@@ -16,7 +16,7 @@ Situs-situs yang menggunakan HTTPS dapat me-host sendiri D3, atau menggunakan CD
 
 D3 bukanlah framework monolitik yang bertujuan menyediakan berbagai macam fitur. Sebaliknya, D3 memecahkan inti masalah: manipulasi efisien dari dokumen berdasarkan data. Hal ini menghindari munculnya proprietary dan memungkinkan fleksibilitas yang luar biasa, mengeskpos kemampuan penuh dari web standards seperti CSS3, HTML5 dan SVG. Dengan biaya yang minimal, D3 sangatlah cepat, mendukung kumpulan data yang besar dan perilaku dinamis untuk interaksi dan animasi. Style fungsional dari D3 memungkinkan kode digunakan kembali melalui berbagai macam kumpulan [komponen](/mbostock/d3/wiki/API-Reference) dan [plugin](/d3/d3-plugins).
 
-## Selections
+## Seleksi
 
 Memodifikasi dokumen menggunakan [W3C DOM API](http://www.w3.org/DOM/DOMTR) itu membosankan: nama method yang bertele-tele, dan pendekatan imperatif mengharuskan iterasi manual dan pengawasan langkah sementara. Sebagai contoh, untuk mengubah warna teks dari elemen paragraf:
 
@@ -44,7 +44,7 @@ Selektor didefinisikan oleh [W3C Selectors API](http://www.w3.org/TR/selectors-a
 
 D3 menyediakan banyak sekali metode untuk mengubah node: mengeset atribut atau style; meregister _event listeners_; menambahkan, menghapus atau menyortir node; dan mengubah isi HTML atau teks. Semua hal tersebut cukup untuk sebagian besar kebutuhan. Akses langsung ke pokok dari DOM juga dimungkinkan, sebagaimana setiap seleksi D3 hanyalah array dari node. 
 
-## Dynamic Properties
+## Properti-properti Dinamis
 
 Pembaca yang telah terbiasa dengan framework-framework DOM lainnya seperti [[jQuery|http://jquery.com/]] atau [[Prototype|http://www.prototypejs.org/]] harusnya segera mengenali kesamaannya dengan D3. Namun style, atribut, atau properti lainnya dapat ditentukan sebagai fungsi dari data pada D3, bukan hanya sebagai konstanta. Meskipun kesederhanaannya nampak jelas, fungsinya ternyata juga sangat powerful; fungsi d3.geo.path misalnya, memproyeksikan [koordinat geografis](http://geojson.org/) menjadi [data path SVG](http://www.w3.org/TR/SVG/paths.html#PathData). D3 menyediakan banyak fungsi-fungsi bawaan dan _function factory_ yang dapat digunakan kembali, seperti [grafis primitif](/mbostock/d3/wiki/SVG-Shapes) untuk area, diagram garis dan pie chart.
 
@@ -74,7 +74,7 @@ d3.selectAll("p")
 
 Pada saat data telah diikat pada dokumen, Anda dapat mengabaikan operator data; D3 akan mendapatkan kembali data yang sebelumnya diikat. Hal ini memungkinkan Anda untuk menghitung kembali properti tanpa mengikat ulang.
 
-## Enter and Exit
+## Enter dan Exit
 
 Menggunakan seleksi enter dan exit D3, Anda dapat membuat node baru untuk data yang masuk dan menghapus node keluar yang tidak lagi dibutuhkan.
 
@@ -107,13 +107,13 @@ Dengan menangani ketiga kasus tersebut secara terpisah, Anda menentukan secara t
 
 D3 memungkinkan Anda mentransformasi dokumen berdasarkan data; hal ini termasuk baik membuat maupun menghancurkan elemen-elemen. D3 memungkinkan Anda untuk mengubah dokumen eksisting untuk merespon interkasi pengguna, animasi melalui waktu, atau bahkan notifikasi asinkronos dari pihak ketiga. Suatu pendekatan hibrid bahkan dimungkinkan, dimana dokumen awalnya dirender di server, dan diupdate pada klien melalui D3.
 
-## Transformation, not Representation
+## Transformasi, bukan Representasi
 
 D3 bukanlah representasi grafis baru. Tidak seperti [[Processing|http://processing.org/]], [[Raphaël|http://raphaeljs.com/]], atau [[Protovis|http://vis.stanford.edu/protovis/]], perbendaharaan tanda langsung berasal dari web standard: HTML, SVG dan CSS. Sebagai contoh, Anda dapat membuat elemen SVG menggunakan D3 dan memberi style menggunakan stylesheet eksternal. Anda dapat menggunakan efek filter komposit, garis dash dan kliping. Bila pembuat perambah memperkenalkan fitur baru esok, Anda akan bisa menggunakannya langsung tanpa dibutuhkan update toolkit. Dan, bila Anda memutuskan di masa yang akan datang untuk menggunakan toolkit bukan D3, Anda dapat membawa pengetahuan akan standard bersama Anda!
 
 Yang terbaik dari semuanya, D3 mudah untuk di-debug menggunakan inspektor elemen bawaan perambah: node yang Anda manipulasi dengan D3 adalah persis apa yang perambah mengerti secara _native_.
 
-## Transition
+## Transisi
 
 Fokus D3 pada transformasi diperluas secara alamiah pada animasi transisi. Transisi secara bertahap menginterpolasi atau menyisipkan style dan atribut seiring dengan berjalannya waktu. _Tweening_ dapat dikendalikan melalui pelonggaran fungsi seperti “elastic”, “cubic-in-out” dan “linear”. Interpolator D3 mendukung primitif, seperti bilangan dan bilangan yang dilekatkan dalam string (font sizes, path data, dll.), dan nilai-nilai gabungan. Anda bahkan dapat memperluas interpolator registry D3 untuk mendukung properti dan data struktur kompleks.
 
