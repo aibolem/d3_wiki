@@ -27,7 +27,7 @@ Unduh versi terakhir di sini:
 
 * <https://github.com/mbostock/d3/releases>
 
-Atau, me-link secara langsybg ke rilis terakhir, kopi potongan kode berikut:
+Atau, me-link secara langsung ke rilis terakhir, kopi potongan kode berikut:
 
 ```html
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
